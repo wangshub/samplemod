@@ -1,0 +1,20 @@
+sudo: false
+language: python
+notifications:
+  email:
+    recipients:
+      - me@example.com
+    on_success: always # default: change
+    on_failure: always # default: always
+python:
+  - "3.7"
+  - "3.6"
+  - "3.5"
+  - "2.7"
+before_install:
+  - pip install -r requirements.txt
+script:
+  - python setup.py install
+  - python setup.py test
+after_success:
+  - echo "after success!"
