@@ -1,7 +1,7 @@
 # Python Package Template
 
 ## Install
-        ````
+
 ```python
 python setup.py install
 ```
