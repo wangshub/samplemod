@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-
-# Learn more: https://github.com/kennethreitz/setup.py
-
 from setuptools import setup, find_packages
 
 
@@ -16,9 +13,9 @@ setup(
     version='0.1.0',
     description='Sample package for Python-Guide.org',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='wangshub',
+    author_email='rocksong.hit@gmail.com',
+    url='https://github.com/wanshub/samplemod',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
